@@ -1,4 +1,6 @@
-package ru.mirea.task3;
+package ru.mirea.task3.opt3;
+
+import ru.mirea.task3.opt3.Book;
 
 public class BookTest {
     public static void main(String[] args){

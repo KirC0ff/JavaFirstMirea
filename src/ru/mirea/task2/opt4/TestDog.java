@@ -1,4 +1,6 @@
-package ru.mirea.task2;
+package ru.mirea.task2.opt4;
+
+import ru.mirea.task2.opt4.Dog;
 
 import java.util.ArrayList;
 

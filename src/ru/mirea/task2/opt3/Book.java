@@ -1,4 +1,4 @@
-package ru.mirea.task3;
+package ru.mirea.task2.opt3;
 
 public class Book {
     private String name, author;
@@ -48,23 +48,19 @@ public class Book {
     public void changeName(String newName){
         name = newName;
     }
+
     public void changeAuthor(String newAuthor){
         author = newAuthor;
     }
+
     public int getYear(){
         return year;
-
     }
     public int getNumber(){
         return numberOfSheets;
     }
 
-    public String getAuthor(){
-        return author;
-    }
-    public String getName(){
-        return name;
-    }
+
 
     public String toString(){
         return this.author+" \""+this.name+"\", "+this.year+", "+this.numberOfSheets+" sheets";

@@ -1,4 +1,6 @@
-package ru.mirea.task2;
+package ru.mirea.task2.opt1;
+
+import ru.mirea.task2.opt1.Shape;
 
 public class TestShape {
     public static void main(String[] args) {

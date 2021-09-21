@@ -1,4 +1,4 @@
-package ru.mirea.task2;
+package ru.mirea.task2.opt1;
 
 public class Shape {
     private String type;
