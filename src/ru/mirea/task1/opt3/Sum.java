@@ -9,6 +9,7 @@ public class Sum {
 
     public Sum(int n){
         this.n = n;
+        System.out.println("Введите массив");
         for(int i=0;i<n;i++){
             a[i] = sc.nextInt();
         }
@@ -35,7 +36,7 @@ public class Sum {
         do{
             result += a[i];
             i++;
-        }while(i<n-1);
+        }while(i<n);
         return result;
     }
 }
