@@ -1,8 +1,8 @@
 package ru.mirea.task7.moveable;
 
 public class MoveablePoint implements Moveable{
-    private int x, y;
-    private int xSpeed, ySpeed;
+    public int x, y;
+    public int xSpeed, ySpeed;
 
     public MoveablePoint(int x, int y, int xSpeed, int ySpeed){
         this.x = x;
@@ -25,4 +25,5 @@ public class MoveablePoint implements Moveable{
     public void moveRight(){
         x+=xSpeed;
     }
+
 }
