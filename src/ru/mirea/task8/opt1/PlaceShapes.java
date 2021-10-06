@@ -12,6 +12,7 @@ public class PlaceShapes extends JFrame {
             if ((n>=100)&&(n<179)) add (new Rectangle());
             if (n>=179) add (new Triangle());
         }
-        setBounds(200, 200, 450, 350);
+        setTitle("Colored shapes");
+        setBounds(200, 100, 800, 640);
     }
 }
