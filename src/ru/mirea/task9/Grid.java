@@ -55,7 +55,7 @@ public class Grid extends JFrame{
         constraints.weightx = 1;
         constraints.gridheight = 1;
         constraints.fill = GridBagConstraints.CENTER;
-        constraints.gridy = 3;
+        constraints.gridy = 2;
         constraints.gridx = 1;
         container.add(result, constraints);
         zenitButton.addActionListener(f -> {
