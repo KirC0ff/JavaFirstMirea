@@ -1,38 +1,36 @@
 package ru.mirea.task13.opt3;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class TestContainer {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        int x = -1, j = 0;
 
         System.out.println("Список:");
-        ArrayList<Integer> arr = new ArrayList<Integer>();
-        for (int i = 0; i < 10; i++) {
-            arr.add(i);
+        Container<Integer> arr = new Container<>();
+        while (x != 0) {
+            x = sc.nextInt();
+            arr.add(x);
+            j++;
         }
         System.out.println(arr);
 
-        System.out.println("\nСписок, с замененными четными элементами на 0:");
-        for (int i = 1; i < arr.size(); i++) {
-            if (i % 2 == 0) {
+        System.out.println("\nСписок без элементов, больших чем 5:");
+        for (int i = 0; i < arr.size(); i++) {
+            if (arr.get(i) > 5) {
                 arr.remove(i);
-                arr.add(i, 0);
             }
         }
-        System.out.println(arr);
-
-        System.out.println("\nСписок без нулей:");
         for (int i = 0; i < arr.size(); i++) {
-            if (arr.get(i) == 0) {
+            if (arr.get(i) > 5) {
                 arr.remove(i);
             }
         }
         System.out.println(arr);
 
         System.out.println("\nВведите число: ");
-        int x = sc.nextInt();
+        x = sc.nextInt();
         if(arr.contains(x)){
             System.out.println("Число найдено");
         }
