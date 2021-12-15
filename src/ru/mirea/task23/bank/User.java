@@ -7,7 +7,7 @@ public class User {
     public User(String login, String password){
         this.id = (int)Math.random()*100000;
         this.login = login;
-        this.login = password;
+        this.password = password;
     }
     public int getID(){
         return this.id;
