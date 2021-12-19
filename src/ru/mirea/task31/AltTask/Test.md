@@ -11,6 +11,10 @@
 Тестирование показало, что метод обрабатывается неверно, однако вывод метода полностью совпадает с ожидаемым (рисунок 2).
 Причина ошибки неизвестна.
 
-![Test](//Test.jpg/150x100 "Рисунок 1 - Тестирование класса CurrencyInfo")
+![Test](https://github.com/KirC0ff/JavaFirstMirea/blob/master/src/ru/mirea/task31/AltTask/Test.jpg?raw=true "Рисунок 1 - Тестирование класса CurrencyInfo")
 
-![Equals](//equalsTest.jpg/150x100 "Рисунок 2 - Сравнение выводов метода equals")
+Рисунок 1 - Тестирование класса CurrencyInfo
+
+![Equals](https://github.com/KirC0ff/JavaFirstMirea/blob/master/src/ru/mirea/task31/AltTask/equalsTest.jpg?raw=true "Рисунок 2 - Сравнение выводов метода equals")
+
+Рисунок 2 - Сравнение выводов метода equals
