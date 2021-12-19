@@ -28,7 +28,5 @@ public class CurrencyInfoTest {
         currencyInfo2.addCurrency("KZT", 0.17);
 
         Assert.assertEquals(currencyInfo1, currencyInfo2);
-
-        currencyInfo1.addCurrency("Сингапурский доллар", 53.6864);
     }
 }
